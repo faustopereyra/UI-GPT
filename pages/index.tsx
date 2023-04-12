@@ -34,7 +34,7 @@ const Home = () => {
             onClick={() => {}}
           />
         </div>
-        <div className="w-3/4 h-full border-l-2">
+        <div className={"flex flex-col h-full"} >
           <ChatArea messages={messages} />
           <Prompt onSend={sendMessage} />
         </div>

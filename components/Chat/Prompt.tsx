@@ -16,7 +16,7 @@ const Prompt: React.FC<PromptProps> = ({ onSend }) => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex items-center p-2 space-x-2 bg-gray-200"
+      className="flex items-center p-2 space-x-2 bg-gray-200 mt-auto"
     >
       <input
         type="text"
